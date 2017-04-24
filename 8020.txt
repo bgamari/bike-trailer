@@ -1,0 +1,43 @@
+# 80/20
+
+ * E = 70326 N/mm^2
+ * yield strength = 241 N/mm^2
+
+## 40 series
+
+ * I = 14 cm^4
+ * EI = 9.8 kPa m^4
+ * rho = 0.132 lb/in
+
+## 40x40 lite
+
+ * I = 9.4 cm^4
+ * EI = 6.6 kPa m^4
+ * rho = 0.0998 lb/in
+
+## 20x20
+
+ * EI = 480 Pa m^4
+ * rho = 0.0247 lb/in
+
+## 20x40
+
+ * I_x = 1.215 cm^4
+ * I_y = 4.546 cm^4
+ * EI_x = 854 Pa m^4
+ * rho = 0.0415 lb/in
+
+## 25x25
+
+ * I = 1.770 cm^4
+ * EI = 1.2 kPa m^4
+ * rho = 0.0415 lb/in
+
+## 25x50
+
+ * I_x = 3.23 cm^4
+ * I_y = 12.11 cm^4
+ * EI_x = 2.3 kPa m^4
+ * EI_y = 8.5 kPa m^4
+ * rho = 0.0734 lb/in
+
