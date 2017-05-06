@@ -3,29 +3,10 @@
  * E = 70326 N/mm^2
  * yield strength = 241 N/mm^2
 
-## 40 series
+## 1010 (1" x 1")
 
- * I = 14 cm^4
- * EI = 9.8 kPa m^4
- * rho = 0.132 lb/in
-
-## 40x40 lite
-
- * I = 9.4 cm^4
- * EI = 6.6 kPa m^4
- * rho = 0.0998 lb/in
-
-## 20x20
-
- * EI = 480 Pa m^4
- * rho = 0.0247 lb/in
-
-## 20x40
-
- * I_x = 1.215 cm^4
- * I_y = 4.546 cm^4
- * EI_x = 854 Pa m^4
- * rho = 0.0415 lb/in
+ * I = 1.915 cm^4
+ * rho = 0.0424 lb/in
 
 ## 25x25
 
@@ -41,3 +22,38 @@
  * EI_y = 8.5 kPa m^4
  * rho = 0.0734 lb/in
 
+## 2020 (20mm x 20mm)
+
+ * I = 0.685 cm^4
+ * EI = 480 Pa m^4
+ * rho = 0.0247 lb/in
+
+## 20x40
+
+ * I_x = 1.215 cm^4
+ * I_y = 4.546 cm^4
+ * EI_x = 854 Pa m^4
+ * rho = 0.0415 lb/in
+
+## 3003 aluminum
+
+ * E = 69 GPa
+ * rho = 2.73 g/cm^3
+
+## 6063 aluminum
+
+ * E = 68.9 GPa
+
+# Miscellaneous
+
+## McMaster 6063 round tube (3/4" OD, 0.065" thickness)
+
+ * rho = 0.013 lb/in
+ * I = 0.69 cm^4
+ * EI = 0.47 kPa m^4
+
+## McMaster 6063 round tube (1" OD, 0.065" thickness)
+
+ * rho = 0.019 lb/in
+ * I = 1.7 cm^4
+ * EI = 1.2 kPa m^4
