@@ -57,3 +57,8 @@
  * rho = 0.019 lb/in
  * I = 1.7 cm^4
  * EI = 1.2 kPa m^4
+
+## McMaster 1.25" hex, 1/8" thickness
+
+ * rho = 0.045 lb/in
+ * Ix = 8.8 cm^4
