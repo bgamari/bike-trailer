@@ -1,15 +1,15 @@
 inch = 25.4;
 
-module tongue_adapter() {
+module tongue_adapter(holes, hole_offset) {
      difference() {
-          cube([2.8*inch, 1.2*inch, 1.1*inch], center=true);
+          cube([(holes-0.2)*inch, 1.2*inch, 1.1*inch], center=true);
 
           rotate([0, 90, 0]) cylinder(r=1.02*inch/2, h=100, center=true);
 
           translate([0, 0, 40-2]) cube([100, 100, 80], center=true);
 
-          translate([-30, 0, 0])
-               #for (i = [0:2])
+          translate([-hole_offset, 0, 0])
+               #for (i = [0:holes-1])
                translate([i*inch, 0, 0]) cylinder(r=4/2, h=30, center=true);
      }
 }
@@ -25,4 +25,5 @@ module spacer() {
 }
 
 //spacer();
-tongue_adapter();
+//tongue_adapter(3, 30);
+tongue_adapter(2, 0.5*inch);
